@@ -2,7 +2,7 @@ if (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]:
 #!ps
 #timeout=900000
 #maxlength=9000000
-$FQDN = 'manage.techxpressllc.com'                   # Enter Automate Server FQDN                             Example: 'company.hostedrmm.com'
+$FQDN = '74.62.86.10'                   # Enter Automate Server FQDN                             Example: 'company.hostedrmm.com'
 $LocationID = '1'                                    # Enter Location ID (Location ID '1' = New Computers)
 $SoftwarePath = "C:\Support\Automate"                # Enter Software Path in order to download the files to  Example: "C:\Support\Automate"
 $ForceRip = $True                                 # Force Agent Uninstall / Install                        Example: $True or $False
